@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width">  
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <a class="bt1 bt">
+      <span class="button__line button__line--top"></span>
+      <span class="button__line button__line--right"></span>
+      <span class="button__line button__line--bottom"></span>
+      <span class="button__line button__line--left"></span>
+    Начать</a>
+
+    <div class="sex" id="choose">
+      <div class="male"><a>♂</a></div>
+      <div class="female"><a>♀</a></h1></div>
+    </div>
+    <section class="section1">
+    <h1 class="p1" style="font-size: 30px">Когда нужно разобратьтся в простой или дорожной карте вы:</h1>
+    
+<div class="bl1, bl">
+  <div class="ans">
+  <div class="imp__hover"> 
+    <input type="radio" value="a" name="i1" id="1i" class="q"  >
+  <label class="label" for="1i" ><span class="lb">в затруднении и часто просите помочь вам</span></label>
+  </div>
+  <div class="imp__hover">
+  <input type="radio" value="b" name="i1" id="2i" class="q" >
+  <label class="label" for="2i" ><span class="lb">поворачиваете ее так, чтобы она совпадала с направлением вашего взгляда на местности</span></label>
+  </div>
+  <div class="imp__hover">
+  <input type="radio" value="c" name="i1" id="3i" class="q" >
+  <label  class="label" for="3i" ><span class="lb">не испытываете никаких трудностей</span></label>
+  </div>
+</div>
+  <div>
+    <a class="bt2  next">
+    Дальше</a>
+    <span class="sp"></span>
+    
+  </div>
+  
+</div>
+</section>
+<div class="section2">
+<div class="fn">
+  <h1 class="result" id="res"></h1>
+  <h2 class="points"></h2>
+  <p class="description"></p>
+</div>
+<div>
+<a class="bt3 next again" onClick="window.location.reload()">
+    Сначала</a>
+</div>
+</div>
+<script src="./modules/map.js"></script>
+    <script  src="script.js"></script>
+
+  </body>
+</html>
